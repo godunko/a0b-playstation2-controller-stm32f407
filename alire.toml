@@ -5,8 +5,11 @@ version = "0.1.0"
 authors = ["Vadim Godunko"]
 maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
 maintainers-logins = ["godunko"]
+licenses = "Apache-2.0 WITH LLVM-exception"
 
 project-files=["gnat/a0b_playstation2_controller_async_stm32f407.gpr"]
+
+tags=["embedded", "playstation2", "ps2", "stm32f407"]
 
 [configuration]
 disabled = true
