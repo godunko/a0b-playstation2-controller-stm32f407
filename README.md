@@ -4,9 +4,10 @@ This repository contains an implementation of the transport layer for the [PlayS
 
 | PlayStation2 Controller | STM32F407 |
 | --- | --- |
-| 1 (Data)       | PB14 (MISO) |
-| 2 (Command)    | PB15 (MOSI) |
-| 6 (Attention)  | PB12 (NSS)  |
-| 7 (Clock)      | PB13 (SCK)  |
-| 9 (Acknoledge) | PB11 (ACK)  |
+| 1 (Data)        | PB14 (MISO) |
+| 2 (Command)     | PB15 (MOSI) |
+| 6 (Attention)   | PB12 (NSS)  |
+| 7 (Clock)       | PB13 (SCK)  |
+| 9 (Acknowledge) | PB11 (ACK)  |
 
+Note, all connections are mandatory (including Acknowledge signal).
