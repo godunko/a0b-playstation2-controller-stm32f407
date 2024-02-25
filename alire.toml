@@ -1,0 +1,18 @@
+name = "a0b_playstation2_controller_async_stm32f407"
+description = "A0B PlayStation2 Controller (STM32F407 asynchronous transport layer)"
+version = "0.1.0"
+
+authors = ["Vadim Godunko"]
+maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
+maintainers-logins = ["godunko"]
+
+project-files=["gnat/a0b_playstation2_controller_async_stm32f407.gpr"]
+
+[configuration]
+disabled = true
+
+[[depends-on]]
+gnat_arm_elf = "*"
+a0b_armv7m = "*"
+a0b_svd_stm32f407 = "*"
+a0b_playstation2_controller_async = "*"

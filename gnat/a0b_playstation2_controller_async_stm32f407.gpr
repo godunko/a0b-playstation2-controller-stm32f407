@@ -1,0 +1,23 @@
+--
+--  Copyright (C) 2024, Vadim Godunko
+--
+--  SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+--
+
+with "a0b_common";
+
+with "a0b_armv7m";
+with "a0b_svd_stm32f407";
+
+with "a0b_playstation2_controller_async";
+
+project A0B_Playstation2_Controller_Async_STM32F407 is
+
+   for Source_Dirs use ("../source");
+   for Object_Dir use "../.objs/" & A0B_Common.Object_Dir_Suffix;
+
+   package Compiler is
+      for Switches ("Ada") use A0B_Common.Compiler_Switches_Ada;
+   end Compiler;
+
+end A0B_Playstation2_Controller_Async_STM32F407;
